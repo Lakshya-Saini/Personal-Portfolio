@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lakshya Saini | Full Stack Developer @yield('title')</title>
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/navbar.css" rel="stylesheet" />
+    <link href="./css/aos.css" rel="stylesheet" />
+    <link href="./css/animate.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--------------------------- Preloader ------------------------------->
+
+    <!-- <div class="se-pre-con"></div> -->
+
+    <!--------------------------- Navbar ------------------------------->
+
+    <nav class="navbar sticky-top">
+      <div class="col-md-12 px-0">
+        <div class="row mx-0">
+          <div class="col-md-3 px-0">
+            <div class="logo">
+              <h3>Saini.</h3>
+            </div>
+          </div>
+          <div class="col-md-9 px-0">
+            <div class="links">
+              <ul>
+                <li><a class="scroll effect" href="#hero">Home</a></li>
+                <li><a class="scroll effect" href="#about">About</a></li>
+                <li><a class="scroll effect" href="#services">Services</a></li>
+                <li><a class="scroll effect" href="#projects">Projects</a></li>
+                <li><a class="scroll effect" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="bar-btn">
+              <div class="bar-1"></div>
+              <div class="bar-2"></div>
+              <div class="bar-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu">
+      <a href="#" class="close-menu"><i class="fas fa-times"></i></a>
+      <ul class="web-links">
+        <li><img src="img/me.png" /></li>
+        <li><a href="#" id="menu-hire-me">Hire Me</a></li>
+        <li><a href="#" id="menu-lets-talk">Contact</a></li>
+        <li><a href="#" id="menu-skills">Skills</a></li>
+        <li><a href="#" id="menu-my-projects">My Projects</a></li>
+      </ul>
+      <div class="social-links">
+        <ul>
+          <li>
+            <a target="_blank" href="https://github.com/Lakshya-Saini/"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/lakshyasaini27/"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/i_m__laksh/"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/lakshya.saini.792"
+              >Facebook</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-------------------- Hero Text -------------------------->
+
+    <div class="hero-section wow animate fadeIn" id="hero">
+      <div class="hero-text">
+        <div class="row mx-0">
+          <div class="col-md-12 px-0">
+            <h3>Hey There!</h3>
+            <h1>I am Lakshya Saini</h1>
+            <p class="mb-0">Full Stack Developer & UI Designer</p>
+            <a class="talk scroll" href="#contact">Let's Talk</a>
+            <a class="hire wow" href="./files/resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-scroll wow animate fadeIn"></div>
+
+    <!-------------------- All Icons and Assests -------------------------->
+
+    <span class="hero-1 wow animate fadeIn">
+      <img src="img/hero-1.png" alt="img" draggable="false" />
+    </span>
+
+    <span class="hero-2 wow animate fadeIn">
+      <img src="img/hero-2.png" alt="img" draggable="false" />
+    </span>
+
+    <span class="hero-3 wow animate fadeIn">
+      <img src="img/hero-3.png" alt="img" draggable="false" id="hero3" />
+    </span>
+
+    <span class="hero-4 wow animate fadeIn">
+      <img src="img/hero-4.png" alt="img" draggable="false" id="hero4" />
+    </span>
+
+    <span class="hero-5 wow animate fadeIn">
+      <img src="img/hero-5.png" alt="img" draggable="false" id="hero5" />
+    </span>
+
+    <span class="hero-6 wow animate fadeIn">
+      <img src="img/hero-6.png" alt="img" draggable="false" id="hero6" />
+    </span>
+
+    <span class="hero-7 wow animate fadeIn">
+      <img src="img/hero-9.png" alt="img" draggable="false" id="hero9" />
+    </span>
+
+    <!-------------------- About Section -------------------------->
+
+    <div class="about-section" id="about">
+      <div class="about-content">
+        <div class="row mx-0">
+          <div class="col-md-10 px-0 mx-auto">
+            <div class="row mx-0">
+              <div data-aos="fade-right" class="col-md-4 px-0">
+                <img src="img/me.png" alt="image" />
+              </div>
+              <div class="col-md-8 px-0">
+                <h3 data-aos="fade-in-down" data-aos-delay="300">About me</h3>
+                <p data-aos="fade-in" data-aos-delay="600">
+                  I am a Freelance Developer having more than 2 years of
+                  experience specializing in Full Stack Development. With a
+                  strong vision in design analysis and ability to solve complex
+                  problems, I have experienced several frontend & backend
+                  technologies (see below). I have a good sense of design,
+                  colors, usability and can build beautiful and modern
+                  interfaces that people love. I enjoy turning concepts into
+                  reality and with this vision I design and develop a product.
+                </p>
+                <a
+                  href="#"
+                  data-aos="fade-left"
+                  data-aos-delay="700"
+                  data-toggle="modal"
+                  data-target="#mySkillsModal"
+                  >My Skills</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------- About Section Assets -------------------------->
+
+      <span class="about-3" data-aos="fade-in" data-aos-delay="1100">
+        <img src="img/about-3.png" alt="img" />
+      </span>
+
+      <span class="about-4" data-aos="fade-in" data-aos-delay="1200">
+        <img src="img/about-4.png" alt="img" />
+      </span>
+
+      <span class="about-5" data-aos="fade-in" data-aos-delay="1300">
+        <img src="img/about-5.png" alt="img" />
+      </span>
+
+      <span class="about-6" data-aos="fade-in" data-aos-delay="1000">
+        <img src="img/about-6.png" alt="img" />
+      </span>
+
+      <span class="about-7" data-aos="fade-in" data-aos-delay="900">
+        <img src="img/about-7.png" alt="img" />
+      </span>
+    </div>
+
+    <!-------------------- My Skills Modal --------------------------->
+
+    <div
+      class="modal fade"
+      id="mySkillsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="mySkillsModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row mx-0">
+              <div class="col-md-12 px-0">
+                <div>
+                  <i class="fas fa-long-arrow-alt-right pr-1"></i>
+                  <h4 class="d-inline">Frontend</h4>
+                </div>
+                <ul class="frontend">
+                  <li class="pl-4">HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>JSON</li>
+                  <li>React</li>
+                </ul>
+                <div>
+                  <i class="fas fa-long-arrow-alt-right pr-1"></i>
+                  <h4 class="d-inline">Backend</h4>
+                </div>
+                <ul class="backend">
+                  <li class="pl-4">PHP</li>
+                  <li>Laravel</li>
+                  <li>Node</li>
+                  <li>AJAX</li>
+                </ul>
+                <div>
+                  <i class="fas fa-long-arrow-alt-right pr-1"></i>
+                  <h4 class="d-inline">Design Tools</h4>
+                </div>
+                <ul class="design-tools">
+                  <li class="pl-4">Adobe Photoshop</li>
+                  <li>Adobe Illustrator</li>
+                  <li>Adobe XD</li>
+                  <li>Webflow</li>
+                </ul>
+                <div>
+                  <i class="fas fa-long-arrow-alt-right pr-1"></i>
+                  <h4 class="d-inline">Databases</h4>
+                </div>
+                <ul class="databases">
+                  <li class="pl-4">My SQL</li>
+                  <li>Mongo DB</li>
+                  <li>Firebase</li>
+                </ul>
+                <div>
+                  <i class="fas fa-long-arrow-alt-right pr-1"></i>
+                  <h4 class="d-inline">Others</h4>
+                </div>
+                <ul class="others mb-0">
+                  <li class="pl-4">Git</li>
+                  <li>Rest APIs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- Connect ---------------------------->
+
+    <div class="connect-section">
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <div class="connect-text">
+            <h3 data-aos="fade-in">
+              Still in dilemma? No worries. Lets connect and discuss about your
+              new project.
+            </h3>
+            <a
+              class="scroll effect"
+              href="#contact"
+              data-aos="fade-in-up"
+              data-aos-delay="400"
+              >Connect</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------- Services Section ----------------------->
+
+    <div class="service-section" id="services">
+      <div class="service-text">
+        <h5 data-aos="fade-in">Services</h5>
+        <p data-aos="fade-in" data-aos-delay="400">
+          As a designer and developer, I help clients build amazing websites and
+          apps that are simple, beautiful and easy to use.
+        </p>
+      </div>
+      <div class="service-content">
+        <div class="row mx-0">
+          <div class="col-md-10 px-0 mx-auto">
+            <div class="row mx-0">
+              <div class="col-md-4">
+                <div class="service-1" data-aos="zoom-in" data-aos-delay="800">
+                  <img src="img/service-1.png" alt="image" />
+                  <h3>UI/UX Design</h3>
+                  <p>
+                    Trending UI/UX design for your product to make it much more
+                    user friendly and attractive.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-2" data-aos="zoom-in" data-aos-delay="1000">
+                  <img src="img/service-2.png" alt="image" />
+                  <h3>Web Development</h3>
+                  <p>
+                    A responsive design and clean backend makes your website
+                    easily accessible, regardless of their device.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-3" data-aos="zoom-in" data-aos-delay="1200">
+                  <img src="img/service-3.png" alt="image" />
+                  <h3>Content Management</h3>
+                  <p>
+                    Custom content for your product that will enhance your
+                    business value. Easily update content without any code
+                    knowledge.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------- Section Assets ------------------->
+
+      <div class="service-4" data-aos="fade-in" data-aos-delay="1500">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+
+      <div class="service-5" data-aos="fade-in" data-aos-delay="1600">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+
+      <div class="service-6" data-aos="fade-in" data-aos-delay="1400">
+        <img src="img/service-5.png" alt="image" />
+      </div>
+    </div>
+
+    <!--------------------------- Projects Section ----------------------------->
+
+    <div class="projects-section" id="projects">
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <div class="projects-text">
+            <h5 data-aos="fade-in">Projects</h5>
+            <p data-aos="fade-in" data-aos-delay="400">
+              Here are a few projects I've worked on recently. Want to see more?
+              Let's Talk
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <div class="projects-content">
+            <div class="projects-content-1">
+              <div class="row mx-0">
+                <div class="col-md-5 mx-auto">
+                  <img
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                    src="./img/ambith-motors.png"
+                    alt="image"
+                  />
+                </div>
+                <div class="col-md-6 mx-auto">
+                  <h3 data-aos="fade-down" data-aos-delay="800">
+                    Ambith Motors
+                  </h3>
+                  <p data-aos="fade-in" data-aos-delay="1000">
+                    Automobile vehicle service provider. Customer can book an
+                    home, office or on road appointment for car service and can
+                    sell their car as well as can buy a new car with this
+                    platform.
+                  </p>
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1200"
+                    href="https://www.ambithmotors.com"
+                    target="_blank"
+                    >Website</a
+                  >
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1400"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#ambithModal"
+                    target="_blank"
+                    class="ml-3 details"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="projects-content-2">
+              <div class="row mx-0">
+                <div class="col-md-5 mx-auto">
+                  <img
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                    src="./img/netflix-clone.png"
+                    alt="image"
+                  />
+                </div>
+                <div class="col-md-6 mx-auto">
+                  <h3 data-aos="fade-down" data-aos-delay="800">
+                    Netflix Clone App
+                  </h3>
+                  <p data-aos="fade-in" data-aos-delay="1000">
+                    Similar to Netflix, it provides different sections and
+                    categories for movies and TV Series.
+                  </p>
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1200"
+                    href="https://mern-netflix-clone.herokuapp.com/"
+                    target="_blank"
+                    >Website</a
+                  >
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1400"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#netflixCloneModal"
+                    target="_blank"
+                    class="ml-3 details"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="projects-content-3">
+              <div class="row mx-0">
+                <div class="col-md-5 mx-auto">
+                  <img
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                    src="./img/restaurant-app.png"
+                    alt="image"
+                  />
+                </div>
+                <div class="col-md-6 mx-auto">
+                  <h3 data-aos="fade-down" data-aos-delay="800">
+                    Restaurant App
+                  </h3>
+                  <p data-aos="fade-in" data-aos-delay="1000">
+                    Admin Panel for Restaurant. It gives you all features that
+                    you can expect in a restaurant application from table
+                    booking to manage dishes and much more.
+                  </p>
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1200"
+                    href="http://php-restaurant-app.epizy.com"
+                    target="_blank"
+                    >Dashboard</a
+                  >
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1400"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#indianCuisineAdminModal"
+                    target="_blank"
+                    class="ml-3 details"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- <div class="projects-content-4">
+              <div class="row mx-0">
+                <div class="col-md-5 mx-auto">
+                  <img
+                    data-aos="fade-right"
+                    data-aos-delay="500"
+                    src="./img/book-fare-app.png"
+                    alt="image"
+                  />
+                </div>
+                <div class="col-md-6 mx-auto">
+                  <h3 data-aos="fade-down" data-aos-delay="800">
+                    Book Fare App
+                  </h3>
+                  <p data-aos="fade-in" data-aos-delay="1000">
+                    Similar to Netflix, it provides different sections and
+                    categories for movies and TV Series.
+                  </p>
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1200"
+                    href="https://mern-netflix-clone.herokuapp.com/"
+                    target="_blank"
+                    >Website</a
+                  >
+                  <a
+                    data-aos="fade-up"
+                    data-aos-delay="1400"
+                    href="#"
+                    data-toggle="modal"
+                    data-target="#netflixCloneModal"
+                    target="_blank"
+                    class="ml-3 details"
+                    >Details</a
+                  >
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="all-projects">
+              <a href="/projects/all">See all Projects</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!--------------------- Projects Assets ------------------->
+
+      <div class="portfolio-4" data-aos="fade-in" data-aos-delay="600">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+
+      <div class="portfolio-5" data-aos="fade-in" data-aos-delay="700">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+    </div>
+
+    <!-------------------- Project 1 Modal ( Ambith ) --------------------------->
+
+    <div
+      class="modal fade"
+      id="ambithModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="ambithModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Ambith Motors</h5>
+            <p>
+              Automobile vehicle service provider. Customer can book an home,
+              office or on road appointment for car service and can sell their
+              car as well as can buy a new car with this platform. The project
+              includes a website and multiple dashboards for different users.
+            </p>
+            <h6>Working Functionalities -</h6>
+            <p>
+              The basic project functionality is that it allows customers to
+              book a car service wherever they are whether at home, office or on
+              road. They can book an appointment and the nearest technician will
+              receive a notification about the service. Technician can confirm
+              or decline the service depending upon his availability. If
+              confirmed, he will receive customer's coordinates on map with
+              route and total distance. After car is serviced, technicians can
+              change the service status from their app and with that customer
+              will recieve a confirmation and payment notification which then
+              lead to payment gateway.
+            </p>
+            <p>
+              In addition to this, this app also allows customers to sell their
+              old car and can buy a new one.
+            </p>
+            <h6>Languages & Frameworks</h6>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>Bootstrap 4</li>
+              <li>jQuery</li>
+              <li>Vue js</li>
+              <li>Laravel</li>
+              <li>AJAX</li>
+            </ul>
+            <h6>APIs</h6>
+            <ul>
+              <li>HERE Maps</li>
+              <li>Msg91</li>
+              <li>Mailgun</li>
+              <li>Payumoney</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------- Project 2 Modal ( Netflix Clone ) --------------------------->
+
+    <div
+      class="modal fade"
+      id="netflixCloneModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="netflixCloneModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Netflix Clone App</h5>
+            <h6>Working Functionalities -</h6>
+            <p>
+              Similar to Netflix, it provides different sections and categories
+              for movies and TV Series. By clicking on any of these we can see
+              their details and similar items. It also includes a watch now
+              button to see the trailer. It is built in mern stack with passport
+              auth and data is fetched from TMDB API.
+            </p>
+            <p>
+              It is an ongoing project. Features like movie streaming, account
+              accessibility limitations, manage profile, movie and tv series
+              recommendations, recently viewed, and even more to be added in
+              upcoming versions.
+            </p>
+            <h6>Languages & Frameworks</h6>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>Bootstrap 4</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Heroku</li>
+            </ul>
+            <h6>APIs</h6>
+            <ul>
+              <li>TMDB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------- Project 4 Modal ( Indian Cuisine Admin Panel ) --------------------------->
+
+    <div
+      class="modal fade"
+      id="indianCuisineAdminModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="indianCuisineTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Indian Cuisine - Admin Panel</h5>
+            <p>
+              Admin Panel for Indian Cuisine. It gives you all features that you
+              can expect in a restaurant application from table booking to
+              manage dishes and much more.
+            </p>
+            <h6>Features</h6>
+            <ul>
+              <li>Manage Staff Members</li>
+              <li>Manage Bookings</li>
+              <li>Manage Groups</li>
+              <li>Manage Tables</li>
+              <li>Manage Categories</li>
+              <li>Manage Dishes</li>
+              <li>Manage Orders</li>
+              <li>Manage Messages by Customers</li>
+              <li>Manage Restaurant Info</li>
+              <li>Profile & Settings</li>
+              <li>Real Time Notification System</li>
+              <li>Toggle Switch for Service Activation</li>
+              <li>Cross Browser Compatible</li>
+              <li>Mobile Friendly</li>
+            </ul>
+            <h6>Languages & Frameworks</h6>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS 3</li>
+              <li>Bootstrap 4</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>PHP</li>
+              <li>AJAX</li>
+            </ul>
+            <h6>APIs</h6>
+            <ul>
+              <li>Mailgun</li>
+              <li>Google Maps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- Contact ---------------------------->
+
+    <div class="contact-section" id="contact">
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <div class="contact-content">
+            <h3 data-aos="fade-down">Contact</h3>
+            <p data-aos="fade-in" data-aos-delay="400">
+              I'm very excited to learn about your project. Let's have a
+              conversation.
+            </p>
+          </div>
+          <div class="contact-form" data-aos="fade-in" data-aos-delay="800">
+            <div class="row mx-0">
+              <div class="col-md-4">
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=saini.lakshya97@gmail.com"
+                  target="_blank"
+                >
+                  <div class="connect-via-gmail">
+                    <img src="./img/gmail.png" alt="gmail-icon" />
+                    <h5>Gmail</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://t.me/Mr_laksh" target="_blank">
+                  <div class="connect-via-telegram">
+                    <img src="./img/telegram.png" alt="telegram-icon" />
+                    <h5>Telegram</h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="https://discord.gg/CKp2X2q" target="_blank">
+                  <div class="connect-via-discord">
+                    <img src="./img/discord.png" alt="discord-icon" />
+                    <h5>Discord</h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------------------- Contact Assets ---------------------------->
+
+      <div class="contact-1" data-aos="fade-in" data-aos-delay="600">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+
+      <div class="contact-2" data-aos="fade-in" data-aos-delay="800">
+        <img src="img/service-4.png" alt="image" />
+      </div>
+
+      <div class="contact-3" data-aos="fade-in">
+        <img src="img/contact-2.png" alt="image" />
+      </div>
+
+      <div class="contact-4" data-aos="fade-in" data-aos-delay="500">
+        <img src="img/contact-3.png" alt="image" />
+      </div>
+    </div>
+
+    <!----------------------------- Footer ---------------------------->
+
+    <footer>
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <h4 class="wow animate fadeInUp" style="animation-delay: 0.6s;">
+            Learn, Code, Repeat
+          </h4>
+        </div>
+      </div>
+      <div class="row mx-0">
+        <div class="col-md-12 px-0">
+          <div class="social-links">
+            <ul>
+              <li class="wow animate fadeIn" style="animation-delay: 0.8s;">
+                <a target="_blank" href="https://github.com/Lakshya-Saini/"
+                  >Github</a
+                >
+              </li>
+              <li class="wow animate fadeIn" style="animation-delay: 1s;">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lakshyasaini27/"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="wow animate fadeIn" style="animation-delay: 1.2s;">
+                <a target="_blank" href="https://www.instagram.com/i_m__laksh/"
+                  >Instagram</a
+                >
+              </li>
+              <li class="wow animate fadeIn" style="animation-delay: 1.4s;">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/lakshya.saini.792"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+      integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
