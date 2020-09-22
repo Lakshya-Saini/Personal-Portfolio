@@ -1638,27 +1638,31 @@ ul.others li {
 
 #ambithModal .modal-content,
 #netflixCloneModal .modal-content,
-#indianCuisineAdminModal .modal-content {
+#indianCuisineAdminModal .modal-content,
+#chatUsModal .modal-content {
   border: none;
   box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 #ambithModal .modal-body,
 #netflixCloneModal .modal-body,
-#indianCuisineAdminModal .modal-body {
+#indianCuisineAdminModal .modal-body,
+#chatUsModal .modal-body {
   padding: 30px;
 }
 
 #ambithModal h5,
 #netflixCloneModal h5,
-#indianCuisineAdminModal h5 {
+#indianCuisineAdminModal h5,
+#chatUsModal h5 {
   font-size: 25px;
   padding-bottom: 15px;
 }
 
 #ambithModal h6,
 #netflixCloneModal h6,
-#indianCuisineAdminModal h6 {
+#indianCuisineAdminModal h6,
+#chatUsModal h6 {
   font-size: 17px;
   font-weight: 500;
   margin-top: 30px;
@@ -1666,7 +1670,8 @@ ul.others li {
 
 #ambithModal p,
 #netflixCloneModal p,
-#indianCuisineAdminModal p {
+#indianCuisineAdminModal p,
+#chatUsModal p {
   font-size: 15px;
   font-weight: 400;
 }
@@ -1675,13 +1680,13 @@ ul.others li {
 #netflixCloneModal ul,
 #indianCuisineAdminModal ul {
   list-style: none;
-  display: inline-block;
 }
 
 #ambithModal ul li,
 #netflixCloneModal ul li,
-#indianCuisineAdminModal ul li {
-  display: inline-block;
+#indianCuisineAdminModal ul li,
+#chatUsModal ul li {
+  display: block;
   padding-right: 15px;
   padding-top: 10px;
   font-size: 15px;
