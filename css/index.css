@@ -170,7 +170,7 @@ nav.white .links ul {
   cursor: default;
   height: 100vh;
   text-align: center;
-  padding-top: 17vh;
+  padding-top: 19vh;
 }
 
 .hero-text {
@@ -209,7 +209,7 @@ nav.white .links ul {
   color: #ffffff;
   background: #eb004e;
   padding: 10px 25px 11px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-right: 20px;
   transition: 0.5s;
 }
@@ -226,7 +226,7 @@ nav.white .links ul {
   border: 1px solid #41516a;
   background: transparent;
   padding: 10px 25px 11px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   margin-right: 20px;
   transition: 0.5s;
 }
@@ -657,7 +657,7 @@ nav.white .links ul {
   color: #ffffff;
   background: #eb004e;
   padding: 9px 25px 10px 25px;
-  border-radius: 3px;
+  border-radius: 25px;
   margin-left: 45px;
   transition: 0.5s;
 }
@@ -1339,7 +1339,7 @@ nav.white .links ul {
   border: 1px solid #eb004e;
   background: #eb004e;
   padding: 10px 25px 11px 25px;
-  border-radius: 4px;
+  border-radius: 25px;
   color: #fff;
   text-decoration: none;
   transition: all ease-in-out 0.2s;
@@ -1403,6 +1403,42 @@ nav.white .links ul {
   width: 50%;
 }
 
+/*------------------------ Stats --------------------*/
+
+.stats-section {
+  padding: 70px 160px 100px 160px;
+  position: relative;
+  color: #474747;
+  text-align: center;
+}
+
+.stats-1 img,
+.stats-2 img,
+.stats-3 img,
+.stats-4 img {
+  width: 160px;
+}
+
+.stats-1 h4,
+.stats-2 h4,
+.stats-3 h4,
+.stats-4 h4 {
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+.stats-1 h3,
+.stats-2 h3,
+.stats-3 h3,
+.stats-4 h3 {
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+.stats-1 h4 {
+  padding-top: 42px;
+}
+
 /*------------------------ Contact Section --------------------*/
 
 .contact-section {
@@ -1426,61 +1462,45 @@ nav.white .links ul {
   font-weight: 400;
 }
 
-.contact-form a {
-  text-decoration: none;
-  cursor: pointer;
+.contact-form {
+  padding-top: 40px;
 }
 
-.contact-form a:hover > .connect-via-gmail,
-.contact-form a:hover > .connect-via-telegram,
-.contact-form a:hover > .connect-via-discord {
+.contact-form .contact-details .list-group-item {
   border: none;
-  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.1), 2px 3px 15px rgba(0, 0, 0, 0.1);
+  font-size: 17px;
 }
 
-.contact-form a:hover > .connect-via-gmail h5,
-.contact-form a:hover > .connect-via-telegram h5,
-.contact-form a:hover > .connect-via-discord h5 {
-  color: rgba(0, 0, 0, 0.9);
+.contact-form .contact-details .list-group-item i {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #eb004e;
+  padding: 10px;
+  border-radius: 50%;
 }
 
-.contact-form .connect-via-gmail,
-.contact-form .connect-via-telegram,
-.contact-form .connect-via-discord {
-  margin-top: 25px;
-  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.1), 2px 3px 7px rgba(0, 0, 0, 0.1);
-  padding: 20px 25px;
-  border-radius: 4px;
-  text-align: center;
-  transition: all ease-in-out 0.4s;
-}
-
-.contact-form .connect-via-gmail img,
-.contact-form .connect-via-telegram img,
-.contact-form .connect-via-discord img {
-  width: 80px;
-  opacity: 0.9;
-}
-
-.contact-form .connect-via-gmail h5,
-.contact-form .connect-via-telegram h5,
-.contact-form .connect-via-discord h5 {
+.contact-form form .form-group .form-control {
+  border-radius: 3px;
   font-size: 15px;
-  font-weight: 400;
-  padding-top: 20px;
-  color: rgba(0, 0, 0, 0.6);
-  transition: all ease-in-out 0.3s;
 }
 
-.contact-image img {
-  width: 100%;
+.contact-form form .form-group .form-control:focus {
+  border-color: #eb004e;
+}
+
+.contact-form form .form-group button {
+  background-color: #eb004e;
+  border-color: #eb004e;
+  padding: 8px 25px;
+  border-radius: 3px;
 }
 
 /*---------------------- Contact Assets ----------------------*/
 
 .contact-1 {
   position: absolute;
-  top: 17%;
+  top: 5%;
   left: 12%;
 }
 
@@ -1490,7 +1510,7 @@ nav.white .links ul {
 
 .contact-2 {
   position: absolute;
-  top: 5%;
+  top: 17%;
   right: 12%;
 }
 
@@ -1634,6 +1654,40 @@ ul.others li {
   font-size: 17px;
 }
 
+ul.experience {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.experience li {
+  display: inline;
+  padding-right: 20px;
+}
+
+ul li span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul li span.beginner {
+  background-color: #29c231;
+}
+
+ul li span.intermediate {
+  background-color: #dfad08;
+}
+
+ul li span.advanced {
+  background-color: #b44200;
+}
+
+ul li span.master {
+  background-color: #080808;
+}
+
 /* ----------------- Modals ----------------- */
 
 #ambithModal .modal-content,
@@ -1696,64 +1750,64 @@ ul.others li {
 
 @media (min-width: 1400px) {
   .hero-text h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .hero-text h1 {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
 
   .hero-text p {
-    font-size: 2vw;
+    font-size: 1.4vw;
   }
 
   .hero-text a.talk {
-    font-size: 1.5vw;
-    padding: 0.9vw 2vw;
+    font-size: 1.1vw;
+    padding: 0.7vw 2vw;
   }
 
   .hero-text a.hire {
-    font-size: 1.5vw;
-    padding: 0.9vw 2vw;
+    font-size: 1.1vw;
+    padding: 0.6vw 2vw;
   }
 
   .hero-1 img {
-    width: 8vw;
+    width: 7vw;
   }
 
   .hero-2 img {
-    width: 4vw;
+    width: 3vw;
   }
 
   .hero-3 img {
-    width: 7vw;
+    width: 6vw;
   }
 
   .hero-4 img {
-    width: 4vw;
+    width: 3vw;
   }
 
   .hero-5 img {
-    width: 7vw;
+    width: 6vw;
   }
 
   .hero-6 img {
-    width: 7vw;
+    width: 6vw;
   }
 
   .hero-7 img {
-    width: 14vw;
+    width: 13vw;
   }
 
   .icon-scroll {
-    width: 3vw;
-    height: 5vw;
+    width: 2vw;
+    height: 3.5vw;
   }
 
   .icon-scroll:before {
     width: 0.5vw;
     height: 0.5vw;
-    margin-left: 1.1vw;
+    margin-left: 0.65vw;
   }
 
   .navbar {
@@ -1761,7 +1815,7 @@ ul.others li {
   }
 
   .logo h3 {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
 
   .links ul li a {
@@ -1774,19 +1828,19 @@ ul.others li {
   }
 
   .about-7 img {
-    width: 5vw;
+    width: 4vw;
   }
 
   .about-6 img {
-    width: 6vw;
+    width: 5vw;
   }
 
   .about-3 img {
-    width: 3.5vw;
+    width: 3vw;
   }
 
   .about-4 img {
-    width: 2.5vw;
+    width: 2vw;
   }
 
   .about-5 img {
@@ -1794,29 +1848,29 @@ ul.others li {
   }
 
   .about-content h3 {
-    font-size: 2vw;
+    font-size: 1.7vw;
     padding-left: 4vw;
   }
 
   .about-content p {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     padding-left: 4vw;
   }
 
   .about-content a {
-    font-size: 1.3vw;
-    padding: 0.9vw 2vw;
+    font-size: 1.1vw;
+    padding: 0.6vw 2vw;
     margin-left: 4vw;
   }
 
   .connect-text h3 {
-    font-size: 2vw;
+    font-size: 1.7vw;
     padding-bottom: 3vw;
   }
 
   .connect-text a {
-    font-size: 1.2vw;
-    padding: 0.8vw 2vw;
+    font-size: 1vw;
+    padding: 0.5vw 1.5vw;
     border-radius: 10vw;
   }
 
@@ -1825,15 +1879,15 @@ ul.others li {
   }
 
   .service-text h5 {
-    font-size: 1.8vw;
+    font-size: 1.6vw;
   }
 
   .service-text p {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
   }
 
   .service-1 {
-    height: 24vw !important;
+    height: 23vw !important;
   }
 
   .service-1 img {
@@ -1842,15 +1896,15 @@ ul.others li {
   }
 
   .service-1 h3 {
-    font-size: 1.3vw !important;
+    font-size: 1.2vw !important;
   }
 
   .service-1 p {
-    font-size: 1.1vw !important;
+    font-size: 1vw !important;
   }
 
   .service-2 {
-    height: 24vw !important;
+    height: 23vw !important;
   }
 
   .service-2 img {
@@ -1859,15 +1913,15 @@ ul.others li {
   }
 
   .service-2 p {
-    font-size: 1.1vw !important;
+    font-size: 1vw !important;
   }
 
   .service-2 h3 {
-    font-size: 1.3vw !important;
+    font-size: 1.2vw !important;
   }
 
   .service-3 {
-    height: 24vw !important;
+    height: 23vw !important;
   }
 
   .service-3 img {
@@ -1876,11 +1930,11 @@ ul.others li {
   }
 
   .service-3 h3 {
-    font-size: 1.3vw !important;
+    font-size: 1.2vw !important;
   }
 
   .service-3 p {
-    font-size: 1.1vw !important;
+    font-size: 1vw !important;
   }
 
   .service-6 img {
@@ -1909,37 +1963,37 @@ ul.others li {
   }
 
   .projects-text h5 {
-    font-size: 1.6vw !important;
+    font-size: 1.5vw !important;
   }
 
   .projects-text p {
-    font-size: 1.2vw !important;
+    font-size: 1.1vw !important;
   }
 
   .projects-content h3 {
-    font-size: 1.6vw;
+    font-size: 1.2vw;
   }
 
   .projects-content p {
-    font-size: 1.2vw;
+    font-size: 1vw;
   }
 
   .projects-content a {
-    font-size: 1.2vw;
-    padding: 0.8vw 2vw;
+    font-size: 0.9vw;
+    padding: 0.5vw 1.8vw;
   }
 
   .contact-1 img,
   .contact-2 img {
-    width: 2vw;
+    width: 1.7vw;
   }
 
   .contact-content h3 {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 
   .contact-content p {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     padding-top: 1vw;
   }
 
@@ -1950,27 +2004,27 @@ ul.others li {
 
   .contact-3 img,
   .contact-4 img {
-    width: 3vw;
+    width: 2.5vw;
   }
 
   .contact-form .connect-via-gmail img,
   .contact-form .connect-via-telegram img,
   .contact-form .connect-via-discord img {
-    width: 5vw;
+    width: 4vw;
   }
 
   .contact-form .connect-via-gmail h5,
   .contact-form .connect-via-telegram h5,
   .contact-form .connect-via-discord h5 {
-    font-size: 1.05vw;
+    font-size: 1.1vw;
   }
 
   footer h4 {
-    font-size: 1.9vw !important;
+    font-size: 1.4vw !important;
   }
 
   footer li a .fab {
-    font-size: 2vw;
+    font-size: 1vw;
     padding-top: 1.5vw;
   }
 
@@ -2216,6 +2270,32 @@ ul.others li {
   .projects-content a {
     font-size: 1.3vw;
     padding: 1.2vw 3vw;
+  }
+
+  .stats-section {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .stats-1 img,
+  .stats-2 img,
+  .stats-3 img,
+  .stats-4 img {
+    width: 130px;
+  }
+
+  .stats-1 h4,
+  .stats-2 h4,
+  .stats-3 h4,
+  .stats-4 h4 {
+    font-size: 20px;
+  }
+
+  .stats-1 h3,
+  .stats-2 h3,
+  .stats-3 h3,
+  .stats-4 h3 {
+    font-size: 17px;
   }
 
   .contact-1 img,
@@ -2557,6 +2637,23 @@ ul.others li {
     margin-left: 7%;
   }
 
+  .stats-section .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .stats-3,
+  .stats-4 {
+    margin-top: 50px;
+  }
+
+  .stats-1 h3,
+  .stats-2 h3,
+  .stats-3 h3,
+  .stats-4 h3 {
+    font-size: 16px;
+  }
+
   .contact-content h3 {
     font-size: 21px;
   }
@@ -2853,6 +2950,36 @@ ul.others li {
   .projects-content .col-md-5 {
     max-width: 85%;
     flex: 0 0 85%;
+  }
+
+  .stats-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .stats-section .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .stats-2,
+  .stats-3,
+  .stats-4 {
+    margin-top: 40px;
+  }
+
+  .stats-1 h4,
+  .stats-2 h4,
+  .stats-3 h4,
+  .stats-4 h4 {
+    font-size: 18px;
+  }
+
+  .stats-1 h3,
+  .stats-2 h3,
+  .stats-3 h3,
+  .stats-4 h3 {
+    font-size: 16px;
   }
 
   .contact-3 img {

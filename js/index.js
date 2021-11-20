@@ -1,6 +1,6 @@
 // Loader Animation
 $(window).on("load", function () {
-  $(".se-pre-con").animate({ opacity: 1 }, 1000, function () {
+  $(".se-pre-con").animate({ opacity: 1 }, 2200, function () {
     $(".se-pre-con").fadeOut("slow");
   });
 });
@@ -84,41 +84,69 @@ $(document).ready(function () {
 
   // ----------------------- Disable Submit Button ------------------------- //
 
-  $("#letsTalk").on("click", (e) => {
+  $("#submitForm").on("click", async (e) => {
     e.preventDefault();
 
-    var name = $("#fullName").val();
-    var email = $("#yourEmail").val();
-    var selectCategory = $("input[name='selectCategory']:checked").val();
+    emailjs.init("user_gy3Tvgx9OIiBTwMTNHRT2");
+
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var subject = $("#subject").val();
     var message = $("#message").val();
 
-    var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var regex =
+      /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
     if (name == "") {
-      toastr.warning("Please enter your name");
-      return;
+      return toastr.error("Please enter your name");
     }
 
     if (email == "") {
-      toastr.warning("Please enter your email");
-      return;
+      return toastr.error("Please enter your email");
     }
 
     if (!regex.test(email)) {
-      toastr.warning("Email is incorrect");
-      return;
+      return toastr.error("Email is incorrect");
     }
 
-    if (!selectCategory) {
-      toastr.warning("Please select a category");
-      return;
+    if (!subject) {
+      return toastr.error("Please enter a subject");
     }
 
     if (message == "") {
-      toastr.warning("Please tell me something about project");
+      return toastr.error("Please write a message");
+    }
+
+    // send email
+    const response = await fetch(
+      "https://node-portfolio-backend.herokuapp.com/api/user/email/send",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fromEmail: email,
+          fromName: name,
+          subject,
+          message,
+        }),
+      }
+    );
+    const content = await response.json();
+
+    if (content.success) {
+      toastr.success(content.msg);
+
+      $("#name").val("");
+      $("#email").val("");
+      $("#subject").val("");
+      $("#message").val("");
+
       return;
     }
 
-    $("#letsTalk").unbind("click").click();
+    return toastr.error("Something went wrong. Please try again later");
   });
 });
