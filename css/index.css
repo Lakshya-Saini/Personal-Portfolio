@@ -647,7 +647,6 @@ nav.white .links ul {
   padding: 15px 0px 20px 45px;
   font-size: 18px;
   font-weight: 300;
-  text-align: justify;
 }
 
 .about-content a {
@@ -668,50 +667,9 @@ nav.white .links ul {
 
 /* ----------------- About Assets0 ----------------- */
 
-.about-3 {
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
-}
-
-.about-3 img {
-  width: 38%;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-name: about-3-animate;
-}
-
-.about-4 {
-  position: absolute;
-  bottom: 20%;
-  right: 18%;
-}
-
-.about-4 img {
-  width: 40%;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  animation-name: about-4-animate;
-  animation-delay: 0.5s;
-}
-
-.about-5 {
-  position: absolute;
-  bottom: 28%;
-  right: 14%;
-}
-
-.about-5 img {
-  width: 50%;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  animation-name: about-5-animate;
-  animation-delay: 1s;
-}
-
 .about-6 {
   position: absolute;
-  top: 13%;
+  bottom: 15%;
   right: 9%;
 }
 
@@ -733,204 +691,6 @@ nav.white .links ul {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-name: about-7-animate;
-}
-
-@keyframes about-3-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(-2%);
-  }
-  10% {
-    transform: translateY(-4%);
-  }
-  15% {
-    transform: translateY(-6%);
-  }
-  20% {
-    transform: translateY(-8%);
-  }
-  25% {
-    transform: translateY(-10%);
-  }
-  30% {
-    transform: translateY(-8%);
-  }
-  35% {
-    transform: translateY(-6%);
-  }
-  40% {
-    transform: translateY(-4%);
-  }
-  45% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(2%);
-  }
-  60% {
-    transform: translateY(4%);
-  }
-  65% {
-    transform: translateY(6%);
-  }
-  70% {
-    transform: translateY(8%);
-  }
-  75% {
-    transform: translateY(10%);
-  }
-  80% {
-    transform: translateY(8%);
-  }
-  85% {
-    transform: translateY(6%);
-  }
-  90% {
-    transform: translateY(4%);
-  }
-  95% {
-    transform: translateY(2%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes about-4-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(-2%);
-  }
-  10% {
-    transform: translateY(-4%);
-  }
-  15% {
-    transform: translateY(-6%);
-  }
-  20% {
-    transform: translateY(-8%);
-  }
-  25% {
-    transform: translateY(-10%);
-  }
-  30% {
-    transform: translateY(-8%);
-  }
-  35% {
-    transform: translateY(-6%);
-  }
-  40% {
-    transform: translateY(-4%);
-  }
-  45% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(2%);
-  }
-  60% {
-    transform: translateY(4%);
-  }
-  65% {
-    transform: translateY(6%);
-  }
-  70% {
-    transform: translateY(8%);
-  }
-  75% {
-    transform: translateY(10%);
-  }
-  80% {
-    transform: translateY(8%);
-  }
-  85% {
-    transform: translateY(6%);
-  }
-  90% {
-    transform: translateY(4%);
-  }
-  95% {
-    transform: translateY(2%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes about-5-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(-2%);
-  }
-  10% {
-    transform: translateY(-4%);
-  }
-  15% {
-    transform: translateY(-6%);
-  }
-  20% {
-    transform: translateY(-8%);
-  }
-  25% {
-    transform: translateY(-10%);
-  }
-  30% {
-    transform: translateY(-8%);
-  }
-  35% {
-    transform: translateY(-6%);
-  }
-  40% {
-    transform: translateY(-4%);
-  }
-  45% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(2%);
-  }
-  60% {
-    transform: translateY(4%);
-  }
-  65% {
-    transform: translateY(6%);
-  }
-  70% {
-    transform: translateY(8%);
-  }
-  75% {
-    transform: translateY(10%);
-  }
-  80% {
-    transform: translateY(8%);
-  }
-  85% {
-    transform: translateY(6%);
-  }
-  90% {
-    transform: translateY(4%);
-  }
-  95% {
-    transform: translateY(2%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
 }
 
 @keyframes about-6-animate {
@@ -1638,6 +1398,7 @@ ul.databases,
 ul.others {
   list-style: none;
   display: inline-block;
+  padding-left: 20px;
 }
 
 ul.frontend li,
@@ -1657,6 +1418,7 @@ ul.others li {
 ul.experience {
   display: inline;
   font-size: 14px;
+  padding-left: 20px;
 }
 
 ul.experience li {
@@ -1835,18 +1597,6 @@ ul li span.master {
     width: 5vw;
   }
 
-  .about-3 img {
-    width: 3vw;
-  }
-
-  .about-4 img {
-    width: 2vw;
-  }
-
-  .about-5 img {
-    width: 1.5vw;
-  }
-
   .about-content h3 {
     font-size: 1.7vw;
     padding-left: 4vw;
@@ -2007,18 +1757,6 @@ ul li span.master {
     width: 2.5vw;
   }
 
-  .contact-form .connect-via-gmail img,
-  .contact-form .connect-via-telegram img,
-  .contact-form .connect-via-discord img {
-    width: 4vw;
-  }
-
-  .contact-form .connect-via-gmail h5,
-  .contact-form .connect-via-telegram h5,
-  .contact-form .connect-via-discord h5 {
-    font-size: 1.1vw;
-  }
-
   footer h4 {
     font-size: 1.4vw !important;
   }
@@ -2034,6 +1772,12 @@ ul li span.master {
 
   footer ul li:nth-child(1) a {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .about-6 {
+    bottom: 8%;
   }
 }
 
@@ -2118,18 +1862,6 @@ ul li span.master {
 
   .about-6 img {
     width: 6vw;
-  }
-
-  .about-3 img {
-    width: 3.5vw;
-  }
-
-  .about-4 img {
-    width: 2.5vw;
-  }
-
-  .about-5 img {
-    width: 1.5vw;
   }
 
   .about-content h3 {
@@ -2303,6 +2035,10 @@ ul li span.master {
     width: 2vw;
   }
 
+  .contact-section {
+    padding: 70px 120px;
+  }
+
   .contact-content h3 {
     font-size: 2vw;
   }
@@ -2310,40 +2046,6 @@ ul li span.master {
   .contact-content p {
     font-size: 1.4vw;
     padding-top: 1vw;
-  }
-
-  .contact-form .form-control:not(textarea) {
-    height: 3vw !important;
-    padding-left: 3vw;
-  }
-
-  .contact-form textarea {
-    padding-top: 0.7vw;
-    padding-left: 3vw !important;
-    height: 9vw;
-  }
-
-  .contact-form ::-webkit-input-placeholder {
-    font-size: 1.2vw !important;
-  }
-
-  .icon {
-    padding: 1vw 0.8vw;
-    font-size: 1vw;
-  }
-
-  .contact-form input[type="submit"] {
-    font-size: 1.1vw;
-    padding: 0.6vw 2vw;
-  }
-
-  .contact-form label,
-  .contact-form .container {
-    font-size: 1vw;
-  }
-
-  .contact-form .form-group {
-    margin-bottom: 2vw;
   }
 
   .contact-3 img,
@@ -2357,6 +2059,20 @@ ul li span.master {
 
   footer .social-links ul li a {
     font-size: 1.1vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  .contact-details {
+    display: none;
+  }
+  .contact-form .col-md-4 {
+    flex: 0 0 0%;
+    max-width: 0%;
+  }
+  .contact-form .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
@@ -2426,7 +2142,7 @@ ul li span.master {
   }
 
   .contact-section {
-    padding: 70px 100px;
+    padding: 70px 60px;
   }
 }
 
@@ -2499,21 +2215,6 @@ ul li span.master {
     flex: 0 0 50%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .about-3 {
-    top: 31% !important;
-    left: 14% !important;
-  }
-
-  .about-4 {
-    bottom: 43% !important;
-    left: 11% !important;
-  }
-
-  .about-5 {
-    bottom: 43% !important;
-    right: 14% !important;
   }
 
   .about-6 {
@@ -2662,31 +2363,15 @@ ul li span.master {
     font-size: 15px;
   }
 
-  .contact-form .connect-via-gmail {
-    margin-top: 45px;
+  .contact-form form .form-group button {
+    padding: 5px 25px !important;
+    border-radius: 3px;
+    font-size: 13px;
   }
 
-  .contact-form .form-control:not(textarea) {
-    height: 30px !important;
-    padding: 14px 26px 18px 24px !important;
-  }
-
-  .contact-form ::-webkit-input-placeholder {
-    font-size: 12px !important;
-  }
-
-  .icon {
-    padding: 12px 11px !important;
-  }
-
-  .contact-form label,
-  .contact-form .container {
-    font-size: 11px;
-  }
-
-  .contact-form input[type="submit"] {
-    font-size: 12px;
-    padding: 6px 25px;
+  .contact-2 {
+    top: 24%;
+    right: 9%;
   }
 
   .contact-3 img {
@@ -2695,6 +2380,15 @@ ul li span.master {
 
   .contact-4 img {
     width: 4vw;
+  }
+
+  .contact-form form .form-control {
+    height: 35px;
+    font-size: 14px !important;
+  }
+
+  .contact-form form textarea {
+    height: 150px !important;
   }
 
   footer h4 {
@@ -2730,10 +2424,6 @@ ul li span.master {
   .hero-text a {
     font-size: 15px;
     padding: 8px 25px !important;
-  }
-
-  .contact-form .container {
-    width: 45%;
   }
 }
 
@@ -2799,22 +2489,6 @@ ul li span.master {
     width: 16vw;
   }
 
-  .about-3 {
-    top: 25% !important;
-  }
-
-  .about-4 {
-    bottom: 50% !important;
-  }
-
-  .about-5 {
-    bottom: 54% !important;
-  }
-
-  .about-5 img {
-    width: 3vw;
-  }
-
   .about-6 img {
     width: 9vw;
   }
@@ -2871,12 +2545,21 @@ ul li span.master {
     top: 0%;
   }
 
+  .contact-form .col-md-8 {
+    padding-left: 0;
+  }
+
   .contact-section {
-    padding: 70px 60px !important;
+    padding: 70px 40px !important;
+  }
+
+  .contact-form form .form-group button {
+    width: 100%;
+    font-size: 14px;
   }
 
   .contact-1 {
-    top: 17% !important;
+    top: 22% !important;
     left: 10%;
   }
 
@@ -2890,12 +2573,6 @@ ul li span.master {
 
   .contact-3 img {
     width: 42%;
-  }
-
-  .contact-form .connect-via-gmail img,
-  .contact-form .connect-via-telegram img,
-  .contact-form .connect-via-discord img {
-    width: 60px;
   }
 }
 
@@ -3068,19 +2745,6 @@ ul li span.master {
     margin-left: 30px;
   }
 
-  .about-3 {
-    left: 5% !important;
-  }
-
-  .about-4 {
-    left: 9% !important;
-  }
-
-  .about-5 {
-    bottom: 59% !important;
-    right: 12% !important;
-  }
-
   .about-6 {
     top: 17% !important;
     right: 5% !important;
@@ -3135,21 +2799,7 @@ ul li span.master {
   }
 
   .contact-section {
-    padding: 70px 30px !important;
-  }
-
-  .contact-form .form-control:not(textarea) {
-    padding: 13px 10px 17px 24px !important;
-    margin-bottom: 10px;
-  }
-
-  .contact-form textarea {
-    padding-left: 5vw !important;
-    height: 15vw;
-  }
-
-  .contact-form ::-webkit-input-placeholder {
-    font-size: 12px !important;
+    padding: 70px 25px !important;
   }
 
   footer h4 {
@@ -3185,6 +2835,30 @@ ul li span.master {
     padding-bottom: 24px;
   }
 
+  ul.frontend,
+  ul.backend,
+  ul.design-tools,
+  ul.databases,
+  ul.others {
+    display: block;
+  }
+
+  ul.frontend li,
+  ul.backend li,
+  ul.design-tools li,
+  ul.databases li,
+  ul.others li {
+    display: block;
+  }
+
+  ul.experience {
+    display: block;
+  }
+
+  ul.experience li {
+    display: block;
+  }
+
   .connect-text h3 {
     line-height: 24px;
   }
@@ -3218,14 +2892,6 @@ ul li span.master {
     padding: 7px 22px !important;
   }
 
-  .about-4 {
-    bottom: 57% !important;
-  }
-
-  .about-5 {
-    bottom: 65% !important;
-  }
-
   .connect-section {
     display: none;
   }
@@ -3250,15 +2916,6 @@ ul li span.master {
     top: 2%;
   }
 
-  .contact-form .container {
-    width: 100%;
-  }
-
-  .contact-form textarea {
-    padding-left: 6vw !important;
-    height: 25vw;
-  }
-
   .contact-3 img {
     width: 22%;
   }
@@ -3277,89 +2934,5 @@ ul li span.master {
   .hero-4 {
     top: 40% !important;
     left: 87%;
-  }
-}
-
-/* ----------------------- Extra Media Queries ------------------- */
-
-@media (width: 1366px) and (height: 1024px) {
-  .hero-section {
-    height: 70vh;
-  }
-
-  .icon-scroll {
-    display: none;
-  }
-
-  .hero-2 {
-    bottom: 32%;
-  }
-
-  .hero-4 {
-    top: 41%;
-  }
-
-  .hero-5 {
-    top: 59%;
-  }
-
-  .hero-7 {
-    top: 47%;
-  }
-}
-
-@media (width: 1024px) and (height: 1366px) {
-  .hero-section {
-    height: 50vh;
-    padding-top: 11vh;
-  }
-
-  .icon-scroll {
-    display: none;
-  }
-
-  .hero-2 {
-    bottom: 53%;
-  }
-
-  .hero-3 {
-    top: 11%;
-    left: 14%;
-  }
-
-  .hero-4 {
-    top: 28%;
-  }
-
-  .hero-5 {
-    top: 39%;
-  }
-
-  .hero-6 {
-    top: 10%;
-  }
-
-  .hero-7 {
-    top: 33%;
-  }
-
-  .service-content .col-md-10 {
-    max-width: 95%;
-    flex: 0 0 95%;
-  }
-
-  .service-content .service-1,
-  .service-content .service-2,
-  .service-content .service-3 {
-    height: 34vw !important;
-  }
-
-  .service-6 {
-    top: 83%;
-  }
-
-  .projects-content .col-md-5 {
-    max-width: 50%;
-    flex: 0 0 50%;
   }
 }
