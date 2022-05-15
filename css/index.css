@@ -602,10 +602,6 @@ nav.white .links ul {
   height: 90px;
 }
 
-.service-content .service-1 img {
-  width: 110px;
-}
-
 .service-content .service-1 h3,
 .service-content .service-2 h3,
 .service-content .service-3 h3 {
@@ -1307,10 +1303,6 @@ ul li span.master {
     font-size: 1.1vw;
   }
 
-  .service-1 {
-    height: 23vw !important;
-  }
-
   .service-1 h3 {
     font-size: 1.2vw !important;
   }
@@ -1319,20 +1311,12 @@ ul li span.master {
     font-size: 1vw !important;
   }
 
-  .service-2 {
-    height: 23vw !important;
-  }
-
   .service-2 p {
     font-size: 1vw !important;
   }
 
   .service-2 h3 {
     font-size: 1.2vw !important;
-  }
-
-  .service-3 {
-    height: 23vw !important;
   }
 
   .service-3 h3 {
@@ -1746,7 +1730,7 @@ ul li span.master {
   .service-1,
   .service-2,
   .service-3 {
-    height: 280px !important;
+    height: 320px !important;
   }
 
   .service-6 {
