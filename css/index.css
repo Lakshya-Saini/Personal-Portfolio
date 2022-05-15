@@ -2106,6 +2106,10 @@ ul li span.master {
     top: 0%;
   }
 
+  .stats-1 img, .stats-2 img, .stats-3 img, .stats-4 img {
+    width: 95px;
+  }
+
   .contact-form .col-md-8 {
     padding-left: 0;
   }
@@ -2224,7 +2228,7 @@ ul li span.master {
 
 @media (max-width: 500px) {
   .connect-text {
-    padding: 7% 1%;
+    padding: 7% 9%;
   }
 }
 
