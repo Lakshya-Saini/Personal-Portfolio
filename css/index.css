@@ -598,7 +598,7 @@ nav.white .links ul {
 .service-content .service-1 img,
 .service-content .service-2 img,
 .service-content .service-3 img {
-  width: 140px;
+  width: 130px;
   height: 90px;
 }
 
@@ -1311,11 +1311,6 @@ ul li span.master {
     height: 23vw !important;
   }
 
-  .service-1 img {
-    width: 8.5vw !important;
-    height: 7.6vw !important;
-  }
-
   .service-1 h3 {
     font-size: 1.2vw !important;
   }
@@ -1328,11 +1323,6 @@ ul li span.master {
     height: 23vw !important;
   }
 
-  .service-2 img {
-    width: 11.5vw !important;
-    height: 7.6vw !important;
-  }
-
   .service-2 p {
     font-size: 1vw !important;
   }
@@ -1343,11 +1333,6 @@ ul li span.master {
 
   .service-3 {
     height: 23vw !important;
-  }
-
-  .service-3 img {
-    width: 8vw !important;
-    height: 7.6vw !important;
   }
 
   .service-3 h3 {
@@ -1558,11 +1543,6 @@ ul li span.master {
     height: 28vw !important;
   }
 
-  .service-1 img {
-    width: 12vw !important;
-    height: 10.5vw !important;
-  }
-
   .service-1 h3 {
     font-size: 1.4vw !important;
   }
@@ -1575,11 +1555,6 @@ ul li span.master {
     height: 28vw !important;
   }
 
-  .service-2 img {
-    width: 15vw !important;
-    height: 10vw !important;
-  }
-
   .service-2 p {
     font-size: 1.2vw !important;
   }
@@ -1590,11 +1565,6 @@ ul li span.master {
 
   .service-3 {
     height: 28vw !important;
-  }
-
-  .service-3 img {
-    width: 15vw !important;
-    height: 10vw !important;
   }
 
   .service-3 h3 {
@@ -2139,17 +2109,6 @@ ul li span.master {
     display: block;
   }
 
-  .service-1 img {
-    width: 15vw !important;
-    height: 13vw !important;
-  }
-
-  .service-2 img,
-  .service-3 img {
-    width: 17vw !important;
-    height: 12vw !important;
-  }
-
   .service-6 {
     top: 95%;
   }
@@ -2229,17 +2188,6 @@ ul li span.master {
 
   .about-content a {
     font-size: 12px !important;
-  }
-
-  .service-1 img {
-    width: 15vw !important;
-    height: 13vw !important;
-  }
-
-  .service-2 img,
-  .service-3 img {
-    width: 16vw !important;
-    height: 11vw !important;
   }
 
   .projects-content .col-md-5 {
@@ -2372,17 +2320,6 @@ ul li span.master {
 
   .service-6 {
     top: 97%;
-  }
-
-  .service-1 img {
-    width: 19vw !important;
-    height: 17vw !important;
-  }
-
-  .service-2 img,
-  .service-3 img {
-    width: 22vw !important;
-    height: 15vw !important;
   }
 
   .projects-text {
