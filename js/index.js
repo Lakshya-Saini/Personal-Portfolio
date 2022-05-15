@@ -87,8 +87,6 @@ $(document).ready(function () {
   $("#submitForm").on("click", async (e) => {
     e.preventDefault();
 
-    emailjs.init("user_gy3Tvgx9OIiBTwMTNHRT2");
-
     var name = $("#name").val();
     var email = $("#email").val();
     var subject = $("#subject").val();

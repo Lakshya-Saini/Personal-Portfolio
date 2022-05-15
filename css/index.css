@@ -148,8 +148,7 @@ body {
 /* --------- On Scroll Add White Background to Navbar ----------*/
 
 nav.white {
-  background-color: #fff;
-  padding: 17px 0 0 0;
+  background: #fff;
   z-index: 1000;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
@@ -168,9 +167,9 @@ nav.white .links ul {
 
 .hero-section {
   cursor: default;
-  height: 100vh;
+  height: calc(100vh - 80px);
   text-align: center;
-  padding-top: 19vh;
+  background: linear-gradient(to left, #e8faff, #fce9ff);
 }
 
 .hero-text {
@@ -182,6 +181,7 @@ nav.white .links ul {
   font-weight: 400;
   color: #649bdd;
   opacity: 50%;
+  padding-top: 19vh;
   padding-bottom: 12px;
   margin-bottom: 0;
 }
@@ -198,7 +198,7 @@ nav.white .links ul {
   font-size: 22px;
   font-weight: 400;
   color: #41516a;
-  padding-bottom: 38px;
+  padding-bottom: 45px;
   margin-bottom: 0;
 }
 
@@ -209,7 +209,7 @@ nav.white .links ul {
   color: #ffffff;
   background: #eb004e;
   padding: 10px 25px 11px 25px;
-  border-radius: 25px;
+  border-radius: 4px;
   margin-right: 20px;
   transition: 0.5s;
 }
@@ -226,7 +226,7 @@ nav.white .links ul {
   border: 1px solid #41516a;
   background: transparent;
   padding: 10px 25px 11px 25px;
-  border-radius: 25px;
+  border-radius: 4px;
   margin-right: 20px;
   transition: 0.5s;
 }
@@ -237,6 +237,11 @@ nav.white .links ul {
   border: 1px solid #41516a;
 }
 
+.main-hero-img {
+  width: 100%;
+  height: 100%;
+}
+
 .icon-scroll,
 .icon-scroll:before {
   position: absolute;
@@ -244,8 +249,8 @@ nav.white .links ul {
 
 .icon-scroll {
   position: absolute;
-  top: 80%;
-  left: 48.5%;
+  top: 88%;
+  left: 49%;
   width: 30px;
   height: 50px;
   bottom: 10px;
@@ -257,6 +262,7 @@ nav.white .links ul {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1021;
 }
 
 .hero-1 img {
@@ -271,68 +277,6 @@ nav.white .links ul {
 
 .hero-2 img {
   width: 80%;
-}
-
-.hero-3 {
-  position: absolute;
-  top: 18%;
-  left: 17%;
-}
-
-.hero-3 img {
-  width: 65%;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-name: hero-3-animate;
-}
-
-.hero-4 {
-  position: absolute;
-  top: 47%;
-  left: 9%;
-}
-
-.hero-4 img {
-  width: 65%;
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
-  animation-name: hero-4-animate;
-}
-
-.hero-5 {
-  position: absolute;
-  top: 74%;
-  left: 23%;
-}
-
-.hero-5 img {
-  width: 65%;
-  animation-duration: 3.5s;
-  animation-iteration-count: infinite;
-  animation-name: hero-5-animate;
-}
-
-.hero-6 {
-  position: absolute;
-  top: 18%;
-  left: 78%;
-}
-
-.hero-6 img {
-  width: 35%;
-}
-
-.hero-7 {
-  position: absolute;
-  top: 60%;
-  left: 75%;
-}
-
-.hero-7 img {
-  width: 80%;
-  animation-duration: 4.5s;
-  animation-iteration-count: infinite;
-  animation-name: hero-9-animate;
 }
 
 .icon-scroll:before {
@@ -354,270 +298,6 @@ nav.white .links ul {
   100% {
     opacity: 0;
     transform: translateY(26px);
-  }
-}
-
-@keyframes hero-3-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(-1%);
-  }
-  10% {
-    transform: translateY(-2%);
-  }
-  15% {
-    transform: translateY(-3%);
-  }
-  20% {
-    transform: translateY(-4%);
-  }
-  25% {
-    transform: translateY(-5%);
-  }
-  30% {
-    transform: translateY(-4%);
-  }
-  35% {
-    transform: translateY(-3%);
-  }
-  40% {
-    transform: translateY(-2%);
-  }
-  45% {
-    transform: translateY(-1%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(1%);
-  }
-  60% {
-    transform: translateY(2%);
-  }
-  65% {
-    transform: translateY(3%);
-  }
-  70% {
-    transform: translateY(4%);
-  }
-  75% {
-    transform: translateY(5%);
-  }
-  80% {
-    transform: translateY(4%);
-  }
-  85% {
-    transform: translateY(3%);
-  }
-  90% {
-    transform: translateY(2%);
-  }
-  95% {
-    transform: translateY(1%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes hero-4-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(1%);
-  }
-  10% {
-    transform: translateY(2%);
-  }
-  15% {
-    transform: translateY(3%);
-  }
-  20% {
-    transform: translateY(4%);
-  }
-  25% {
-    transform: translateY(5%);
-  }
-  30% {
-    transform: translateY(4%);
-  }
-  35% {
-    transform: translateY(3%);
-  }
-  40% {
-    transform: translateY(2%);
-  }
-  45% {
-    transform: translateY(1%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(-1%);
-  }
-  60% {
-    transform: translateY(-2%);
-  }
-  65% {
-    transform: translateY(-3%);
-  }
-  70% {
-    transform: translateY(-4%);
-  }
-  75% {
-    transform: translateY(-5%);
-  }
-  80% {
-    transform: translateY(-4%);
-  }
-  85% {
-    transform: translateY(-3%);
-  }
-  90% {
-    transform: translateY(-2%);
-  }
-  95% {
-    transform: translateY(-1%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes hero-5-animate {
-  0% {
-    transform: translateX(0%);
-  }
-  5% {
-    transform: translateX(-1%);
-  }
-  10% {
-    transform: translateX(-2%);
-  }
-  15% {
-    transform: translateX(-3%);
-  }
-  20% {
-    transform: translateX(-4%);
-  }
-  25% {
-    transform: translateX(-5%);
-  }
-  30% {
-    transform: translateX(-4%);
-  }
-  35% {
-    transform: translateX(-3%);
-  }
-  40% {
-    transform: translateX(-2%);
-  }
-  45% {
-    transform: translateX(-1%);
-  }
-  50% {
-    transform: translateX(0%);
-  }
-  55% {
-    transform: translateX(1%);
-  }
-  60% {
-    transform: translateX(2%);
-  }
-  65% {
-    transform: translateX(3%);
-  }
-  70% {
-    transform: translateX(4%);
-  }
-  75% {
-    transform: translateX(5%);
-  }
-  80% {
-    transform: translateX(4%);
-  }
-  85% {
-    transform: translateX(3%);
-  }
-  90% {
-    transform: translateX(2%);
-  }
-  95% {
-    transform: translateX(1%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@keyframes hero-9-animate {
-  0% {
-    transform: translateY(0%);
-  }
-  5% {
-    transform: translateY(-1%);
-  }
-  10% {
-    transform: translateY(-2%);
-  }
-  15% {
-    transform: translateY(-3%);
-  }
-  20% {
-    transform: translateY(-4%);
-  }
-  25% {
-    transform: translateY(-5%);
-  }
-  30% {
-    transform: translateY(-4%);
-  }
-  35% {
-    transform: translateY(-3%);
-  }
-  40% {
-    transform: translateY(-2%);
-  }
-  45% {
-    transform: translateY(-1%);
-  }
-  50% {
-    transform: translateY(0%);
-  }
-  55% {
-    transform: translateY(1%);
-  }
-  60% {
-    transform: translateY(2%);
-  }
-  65% {
-    transform: translateY(3%);
-  }
-  70% {
-    transform: translateY(4%);
-  }
-  75% {
-    transform: translateY(5%);
-  }
-  80% {
-    transform: translateY(4%);
-  }
-  85% {
-    transform: translateY(3%);
-  }
-  90% {
-    transform: translateY(2%);
-  }
-  95% {
-    transform: translateY(1%);
-  }
-  100% {
-    transform: translateY(0%);
   }
 }
 
@@ -656,7 +336,7 @@ nav.white .links ul {
   color: #ffffff;
   background: #eb004e;
   padding: 9px 25px 10px 25px;
-  border-radius: 25px;
+  border-radius: 3px;
   margin-left: 45px;
   transition: 0.5s;
 }
@@ -854,7 +534,7 @@ nav.white .links ul {
   color: #fff;
   text-decoration: none;
   padding: 10px 30px 11px 30px;
-  border-radius: 25px;
+  border-radius: 4px;
   transition: 0.5s;
 }
 
@@ -941,6 +621,17 @@ nav.white .links ul {
   text-align: justify-all;
   padding: 10px 0 0 0;
   margin-bottom: 0;
+}
+
+.service-content .service-1 hr,
+.service-content .service-2 hr,
+.service-content .service-3 hr {
+  width: 20%;
+  margin-top: 30px;
+  height: 1px;
+  background-color: #eb004e;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ------------------- Service Assets ------------------- */
@@ -1099,7 +790,7 @@ nav.white .links ul {
   border: 1px solid #eb004e;
   background: #eb004e;
   padding: 10px 25px 11px 25px;
-  border-radius: 25px;
+  border-radius: 4px;
   color: #fff;
   text-decoration: none;
   transition: all ease-in-out 0.2s;
@@ -1175,6 +866,10 @@ nav.white .links ul {
 .stats-1 img,
 .stats-2 img,
 .stats-3 img,
+.stats-4 img {
+  width: 130px;
+}
+
 .stats-4 img {
   width: 160px;
 }
@@ -1541,26 +1236,6 @@ ul li span.master {
     width: 3vw;
   }
 
-  .hero-3 img {
-    width: 6vw;
-  }
-
-  .hero-4 img {
-    width: 3vw;
-  }
-
-  .hero-5 img {
-    width: 6vw;
-  }
-
-  .hero-6 img {
-    width: 6vw;
-  }
-
-  .hero-7 img {
-    width: 13vw;
-  }
-
   .icon-scroll {
     width: 2vw;
     height: 3.5vw;
@@ -1570,10 +1245,6 @@ ul li span.master {
     width: 0.5vw;
     height: 0.5vw;
     margin-left: 0.65vw;
-  }
-
-  .navbar {
-    height: 4.5vw !important;
   }
 
   .logo h3 {
@@ -1621,7 +1292,7 @@ ul li span.master {
   .connect-text a {
     font-size: 1vw;
     padding: 0.5vw 1.5vw;
-    border-radius: 10vw;
+    border-radius: 4px;
   }
 
   .service-section {
@@ -1675,7 +1346,7 @@ ul li span.master {
   }
 
   .service-3 img {
-    width: 11.5vw !important;
+    width: 8vw !important;
     height: 7.6vw !important;
   }
 
@@ -1812,26 +1483,6 @@ ul li span.master {
     width: 4vw;
   }
 
-  .hero-3 img {
-    width: 7vw;
-  }
-
-  .hero-4 img {
-    width: 4vw;
-  }
-
-  .hero-5 img {
-    width: 7vw;
-  }
-
-  .hero-6 img {
-    width: 7vw;
-  }
-
-  .hero-7 img {
-    width: 14vw;
-  }
-
   .icon-scroll {
     width: 3vw;
     height: 5vw;
@@ -1888,7 +1539,7 @@ ul li span.master {
   .connect-text a {
     font-size: 1.3vw;
     padding: 0.8vw 2vw;
-    border-radius: 10vw;
+    border-radius: 4px;
   }
 
   .service-section {
@@ -1968,6 +1619,10 @@ ul li span.master {
 
   .service-5 img {
     width: 2vw;
+  }
+
+  .service-content .service-1 hr, .service-content .service-2 hr, .service-content .service-3 hr {
+    display: none;
   }
 
   .projects-section {
@@ -2175,7 +1830,10 @@ ul li span.master {
 
   .hero-section {
     height: 60vh !important;
-    padding-top: 13vh;
+  }
+
+  .hero-text h3 {
+    padding-top: 15vh;
   }
 
   .hero-1 img {
@@ -2188,26 +1846,6 @@ ul li span.master {
 
   .hero-2 img {
     width: 6vw;
-  }
-
-  .hero-3 {
-    top: 15% !important;
-  }
-
-  .hero-4 {
-    top: 38% !important;
-  }
-
-  .hero-5 {
-    top: 55%;
-  }
-
-  .hero-6 {
-    top: 15%;
-  }
-
-  .hero-7 {
-    top: 48%;
   }
 
   .about-content .col-md-4 {
@@ -2245,6 +1883,10 @@ ul li span.master {
     padding: 7px 25px 8px 25px;
   }
 
+  .connect-text {
+    padding: 7% 10% 6% 10%;
+  }
+
   .connect-text h3 {
     font-size: 18px;
     line-height: 33px;
@@ -2278,7 +1920,7 @@ ul li span.master {
   .service-content .service-1,
   .service-content .service-2,
   .service-content .service-3 {
-    width: 50%;
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
@@ -2443,10 +2085,6 @@ ul li span.master {
     padding-left: 50px !important;
   }
 
-  .hero-section {
-    padding-top: 15vh !important;
-  }
-
   .hero-text h3 {
     font-size: 22px !important;
   }
@@ -2462,31 +2100,6 @@ ul li span.master {
   .hero-text a {
     font-size: 13px;
     padding: 8px 22px !important;
-  }
-
-  .hero-3 img {
-    width: 9vw;
-  }
-
-  .hero-4 img {
-    width: 5vw;
-  }
-
-  .hero-5 img {
-    width: 8vw;
-  }
-
-  .hero-6 img {
-    width: 9vw;
-  }
-
-  .hero-7 {
-    top: 49%;
-    left: 71%;
-  }
-
-  .hero-7 img {
-    width: 16vw;
   }
 
   .about-6 img {
@@ -2518,7 +2131,12 @@ ul li span.master {
   .service-content .service-1,
   .service-content .service-2,
   .service-content .service-3 {
-    width: 65%;
+    width: 100%;
+    height: auto;
+  }
+
+  .service-content .service-1 hr, .service-content .service-2 hr, .service-content .service-3 hr {
+    display: block;
   }
 
   .service-1 img {
@@ -2672,6 +2290,12 @@ ul li span.master {
   }
 }
 
+@media (max-width: 500px) {
+  .connect-text {
+    padding: 7% 1%;
+  }
+}
+
 @media (max-width: 450px) {
   nav.white {
     padding: 20px 0 !important;
@@ -2691,23 +2315,6 @@ ul li span.master {
 
   .hero-1 img {
     width: 13vw !important;
-  }
-
-  .hero-3 {
-    left: 13%;
-  }
-
-  .hero-4 {
-    left: 5%;
-  }
-
-  .hero-6 {
-    left: 81%;
-  }
-
-  .hero-7 {
-    top: 50%;
-    left: 74%;
   }
 
   .hero-text h3 {
@@ -2763,12 +2370,6 @@ ul li span.master {
     flex: 0 0 100%;
   }
 
-  .service-content .service-1,
-  .service-content .service-2,
-  .service-content .service-3 {
-    width: 80%;
-  }
-
   .service-6 {
     top: 97%;
   }
@@ -2813,16 +2414,6 @@ ul li span.master {
     text-align: left;
   }
 
-  .hero-4 {
-    top: 37% !important;
-    left: 84%;
-  }
-
-  .hero-5 {
-    top: 53%;
-    left: 10%;
-  }
-
   .hero-text h3 {
     padding-bottom: 9px;
   }
@@ -2865,12 +2456,6 @@ ul li span.master {
 
   .service-text {
     padding: 0 30px !important;
-  }
-
-  .service-content .service-1,
-  .service-content .service-2,
-  .service-content .service-3 {
-    width: 90%;
   }
 }
 
@@ -2918,21 +2503,5 @@ ul li span.master {
 
   .contact-3 img {
     width: 22%;
-  }
-}
-
-@media (max-width: 320px) {
-  .hero-5 {
-    top: 58%;
-    left: 16%;
-  }
-
-  .hero-7 {
-    top: 54%;
-  }
-
-  .hero-4 {
-    top: 40% !important;
-    left: 87%;
   }
 }

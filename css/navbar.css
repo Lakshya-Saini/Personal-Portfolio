@@ -12,8 +12,9 @@ h3 {
   padding: 20px 50px;
   background-color: transparent;
   font-family: "Nunito", "Helvetica", "Ubuntu", sans-serif;
-  height: 70px;
+  height: 80px;
   transition: all 0.3s ease-in-out;
+  background: linear-gradient(to left, #e8faff, #fce9ff);
 }
 
 .logo {
