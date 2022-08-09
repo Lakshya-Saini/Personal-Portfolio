@@ -169,7 +169,6 @@ nav.white .links ul {
   cursor: default;
   height: calc(100vh - 80px);
   text-align: center;
-  background: linear-gradient(to left, #e8faff, #fce9ff);
 }
 
 .hero-text {
